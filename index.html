@@ -5,13 +5,13 @@
 		<meta name="description" content="Generate ArUco marker for printing with dictionary selection">
 		<meta name="keywords" content="ArUco, AprilTag, OpenCV, april, tag, marker, dictionary, family, print, pdf, svg, computer vision, robotics">
 		<link rel="icon" type="image/png" href="favicon.png">
-		<title>Online ArUco markers generator</title>
+		<title>在线ArUco标记生成器</title>
 	</head>
 	<body>
-		<h1>ArUco markers generator!</h1>
+		<h1>ArUco标记生成器!</h1>
 		<form class="setup">
 			<div class="field">
-				<label for="frm-dict">Dictionary:</label>
+				<label for="frm-dict">Dictionary（词典）:</label>
 				<select name="dict" id="frm-dict">
 					<optgroup label="Standard dictionaries">
 						<option value="aruco" data-width="5" data-height="5" data-number="1024">Original ArUco</option>
@@ -30,11 +30,11 @@
 				</select>
 			</div>
 			<div class="field">
-				<label for="frm-id">Marker ID:</label>
+				<label for="frm-id">Marker ID（标识符ID）:</label>
 				<input id="frm-id" name="id" type="number" min="0" max="999" value="0">
 			</div>
 			<div class="field">
-				<label for="frm-size">Marker size, mm:</label>
+				<label for="frm-size">Marker size, mm（标记尺寸，毫米）:</label>
 				<input id="frm-size" name="size" type="number" min="10" max="5000" value="100">
 			</div>
 		</form>
@@ -48,7 +48,7 @@
 		</div>
 		<footer>
 			<div>
-				If you like this project, please <a href="https://github.com/okalachev/arucogen"><nobr>★ it on GitHub</nobr></a>!
+				If you like this project, please <a href="https://github.com/Dragon617/arucogen"><nobr>★ it on GitHub</nobr></a>!
 			</div>
 			<div>
 				See <a href="https://docs.opencv.org/3.2.0/d5/dae/tutorial_aruco_detection.html">OpenCV documentation</a>
